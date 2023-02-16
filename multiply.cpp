@@ -4,10 +4,11 @@ using namespace std;
 
 int main(){
 
-    int a, b ;
+    int a = 12 ;
+    int b = 10 ; 
+    int multiply = a * b; 
 
-    cin>>a>>b;
-    cout<<"multiply is"<<a*b;
+    cout<<"Multiple of a and b is : "<<a <<" * " << b <<" = "<<multiply<<endl;
 
     return 0;
 }
